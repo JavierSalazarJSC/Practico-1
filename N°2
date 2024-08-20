@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float diametro, radio, circunferencia, area, volumen;
+    cout<<"Ingresar el diametro: ";
+    cin>>diametro;
+    radio=diametro/2.00;
+    circunferencia=3.1416*diametro;
+    area=4*3.1416*radio*radio;
+    volumen=(4*3.1416*radio*radio*radio)/3;
+    cout<<"La circunferencia de la esfera es: "<<circunferencia<<endl;
+    cout<<"El area de la esfera es: "<<area<<endl;
+    cout<<"El volumen de la esfera es: "<<volumen;
+    return 0;
+}
